@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=999
+
+
+To mimic what gu and gU do for ascii,
+I defined two new maps, gS and gT, to transfer between
+the simplified Chinese and the traditional Chinese.
+
+Features:
+
+(a) "quick and dirty" way to transfer Chinese to Chinese
+(b) 20% of efforts for solving 80% of problems
+(c) 2172 Chinese pairs are used for one-to-one map
+(d) cursor position is kept after gS or gT
+(e) [range] for visual mode is supported
